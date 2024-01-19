@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .answer-area {
+    text-align: right;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  
+  .button-area {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  button:active {
+    background-color: #45a049;
+  }
+  
+  button.operator {
+    background-color: #f44336;
+  }
+  
+  button.operator:active {
+    background-color: #d32f2f;
+  }
+
+  .text-area{
+    width: 18.2rem;
+    height: 5rem;
+    text-align: right;
+    font-size: 3rem;
+  }
+  
+
